@@ -19,7 +19,7 @@
 function writeCards(names, eventName) {
     let appreciationCards = [];
     for (let x = 0; x < names.length; x++) {
-        appreciationCards.push(`Thank you for the ${eventName} gift, ${names[x]}!`);
+        appreciationCards.push(`Thank you, ${names[x]}, for the wonderful ${eventName} gift!`);
         //debugger;
     }
     
@@ -36,4 +36,4 @@ function countDown(anyPositiveInt) {
     console.log(anyPositiveInt);
 }
 // it works!! uncomment below
-// countDown(10)
+//countDown(10)
